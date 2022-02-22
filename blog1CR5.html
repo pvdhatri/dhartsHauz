@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,114 +9,103 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Alike+Angular:wght@400&family=Open+Sans:wght@400">
     <link rel="stylesheet" type="text/css" href="https://static1.squarespace.com/static/sitecss/5b6b434cf793920edb20b23f/29/4f9adc1524ac5df956fdf98f/5b6b434cf793920edb20b256/865-05142015/1563428497222/site.css"/>
-</head>
-<!-- <body style="justify-content: center;"> -->
-<body style="margin-left: 200px;">
-        <style>
-        body {
-          font-family: "Lato", sans-serif;
-        }
-        .sidenav {
-          height: 100%;
-          width: 250px;
-          position: fixed;
-          z-index: 1;
-          top: 0;
-          left: 0;
-          background-color: rgb(255, 251, 251);
-          overflow-x: hidden;
-          padding-top: 45px;
-          padding-left: 50px;
-        }
-        .sidenav a {
-          padding: 6px 8px 6px 16px;
-          text-decoration: none;
-          font-size: 25px;
-          color: #1b1919;
-          display: block;
-        }
-        
-        .sidenav a:hover {
-          color: #f1f1f1;
-        }
-        
-        .main {
-          margin-top: 50px;
-          margin-left: 250px; /* Same as the width of the sidenav */
-          font-size: 30px; /* Increased text to enable scrolling */
-          padding: 0px 0px;
-        }
-        </style>
-        <div class="sidenav">
-          <div id="logo" data-content-field="site-title">
-            <h1 class="logo site-title">
-                <a href="index.html" style="padding-left: 0px;">Dhatri PadmaVenkata</a>
-            </h1>
-            <div class="logo-subtitle">Frontend Developer and artist, HYD</div>
-          </div>
-          <div id="topNav" data-content-field="navigation">
-            <nav id="mainNavigation" class="main-nav dropdown-click">
-                <ul>
-                    <li>
-                        <a href="portfolio.html" style="padding: 0px; font-size:large;">PORTFOLIO</a>
-                    </li>
-                    <li><a href="index.html" style="padding: 0px; font-size:large;">HOME</a></li>
-                    <li class="active-link"><a href="blog.html" style="padding: 0px; font-size:large;">BLOG</a></li>
-                    <li><a href="about.html" style="padding: 0px;font-size:large;">ABOUT ME</a></li>
-                </ul>
-            </nav>
-            <nav id="secondaryNavigation" class="main-nav dropdown-click">
-                <ul>
-                    <li><a style="padding: 0px;">SHOP</a></li>
-                    <li><a href="https://www.instagram.com/dhatri.pv/" style="padding: 0px;">INSTAGRAM</a></li>
-                    <li><a href="contact.html" style="padding: 0px;">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        </div>
-    <!-- <h1 style="margin-top: 50px; text-align: center; font-family: Lato, sans-serif;">dhartsHauz Blog</h1> -->
-    <div>
-        <div class="card mb-3" style="max-width: 700px;  margin-left: 1.5in; margin-top: 50px; border:black;">
-            <img src="images/new images/9.PNG" class="card-img-top" alt="img" width="500px" height="700px">
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-3">
-                        <p> Jan 19, 2021</p>
-                        <hr>
 
-                    </div>
-                    <div class="col-md-9">
-                        <h3 class="card-title" style="font-size: 1.2rem; font-family: monospace; margin-top: 0px;">SWALLOW OF HOPE</h3>
-                        <p class="card-text" style="font-size: 14px;">If I could bundle up all my emotions and
-                          the unsaid words and the things that can’t really be expressed
-                          that I have felt this past one year
-                          it will perhaps sound like a cacophony of sounds, of screams, of anguish,
-                          of frustration, of boredom, of missing people, of missing human contact.
-                          And in the background of all this chaos, you will find my
-                          heart beating, constantly, like it always does, unaffected. 
-                          But I have also learnt that that’s okay
-                          it’s okay to not be put together all the time
-                          it’s okay to want to scream your lungs out at the universe and
-                          the world and the gods that you’re supposed to worship
-                          and the people you’re supposed to love.
-                          It’s all okay
-                          because we are human, after all, and if losing the most wonderful
-                          person in my life has taught me anything, it is that
-                          life is too damn short to not truly feel what you’re feeling.
-                          So again, if I could sum up all that’s happened this past year
-                          I would perhaps let out a sigh
-                          a sigh that means a million things
-                          a sigh made up of sleepless nights and anxious dooms
-                          a sigh made up of wonderful evenings with my plants who
-                          Loved that I was constantly at home
-                          a sigh made up of love and loss and happiness and despair
-                          a sigh made up of human nature.</p>
-                                <a href="new-blog.html"><button type="button" class="btn btn-white text-dark" style="padding-left: 0px;"><i>back</i></button></a>
-                    </div>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .menu {
+        float: left;
+        width: 20%;
+      }
+      .menuitem {
+        padding: 8px;
+        margin-top: 7px;
+        border-bottom: 1px solid #f1f1f1;
+      }
+      .main {
+        float: left;
+        width: 60%;
+        padding: 30 0px;
+        overflow: hidden;
+        margin-top: 7px;
+        text-align:center;
+        margin-left: 250px;
+        
+      }
+      .right {
+        float: left;
+        width: 100%;
+        padding: 0px 0px;
+        margin-top: 7px;
+      }
+      
+      @media only screen and (max-width:800px) {
+        /* For tablets: */
+        .main {
+          width: 60%;
+          padding: 0;
+          
+        }
+        .right {
+          width: 100%;
+          margin-left: 0px;
+        }
+      }
+      @media only screen and (max-width:500px) {
+        /* For mobile phones: */
+        .menu, .main, .right {
+          width: 100%;
+          margin-left: 0px;
+        }
+      }
+      </style>
+  </head>
+  <body>
+    <div style="text-align:center">
+      <img src="images/name.PNG" alt="" width="50%" style="margin-bottom: 20px; margin-top:50px">
+      <hr style="margin-left:55px; margin-right: 55px; margin-top: 15px; margin-bottom: 10px;">
+  </div>
+          <div class="main card mb-3" style="max-width: 100%; margin-top: 20px; border:black;">
+              <img src="images/new images/9.PNG" style="padding: 15px;"class="card-img-top" alt="img" width="80%" height="400px">
+              <div class=" right card-body">
+                  <div class="row">
+                      <div class="col-md-3">
+                          <p> Jan 19, 2021</p>
+                          <hr style=" margin-left:55px; margin-right: 55px; margin-top: 10px; margin-bottom: 10px;">
+                      </div>
+                      <div class="col-md-9" style="width:100%">
+                          <h3 class="card-title" style="font-size: 1.2rem; font-family: monospace; margin-top: 0px;">EMOTIONS</h3>
+                          <p class="card-text" style="font-size: 14px; padding: 15px;">If I could bundle up all my emotions and
+                            the unsaid words and the things that can’t really be expressed
+                            that I have felt this past one year
+                            it will perhaps sound like a cacophony of sounds, of screams, of anguish,
+                            of frustration, of boredom, of missing people, of missing human contact.
+                            And in the background of all this chaos, you will find my
+                            heart beating, constantly, like it always does, unaffected. 
+                            But I have also learnt that that’s okay
+                            it’s okay to not be put together all the time
+                            it’s okay to want to scream your lungs out at the universe and
+                            the world and the gods that you’re supposed to worship
+                            and the people you’re supposed to love.
+                            It’s all okay
+                            because we are human, after all, and if losing the most wonderful
+                            person in my life has taught me anything, it is that
+                            life is too damn short to not truly feel what you’re feeling.
+                            So again, if I could sum up all that’s happened this past year
+                            I would perhaps let out a sigh
+                            a sigh that means a million things
+                            a sigh made up of sleepless nights and anxious dooms
+                            a sigh made up of wonderful evenings with my plants who
+                            Loved that I was constantly at home
+                            a sigh made up of love and loss and happiness and despair
+                            a sigh made up of human nature.</p>
+                                  <a href="new-blog.html"><button type="button" class="btn btn-white text-dark" style="padding-left: 0px; margin-bottom: 30px;"><i>back</i></button></a>
+                      </div>
+                  </div>
                 </div>
-              
-            </div>
-        </div>
-    </div>    
-</body>
+              </div>
+          </div>   
+  </body>
+
 </html>
